@@ -1,0 +1,246 @@
+/* ==========================================================================
+   Estilização Customizada - Portfólio Pessoal
+   Autor: Henrique Silva
+   Tecnologias: CSS3 Puro + Bootstrap 5
+   ========================================================================== */
+
+/* --- Variáveis de Tema & Cores --- */
+:root {
+    --bg-main: #0b0f19;
+    --bg-darker: #070a11;
+    --bg-surface: #121826;
+    --bg-surface-hover: #192236;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(99, 102, 241, 0.4);
+    
+    --primary-color: #6366f1;
+    --primary-gradient: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+    --accent-glow: rgba(99, 102, 241, 0.25);
+    
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- Estilos Globais & Tipografia --- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-main) !important;
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+/* Gradiente de texto */
+.text-gradient {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Espaçamento de seções */
+.section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bg-darker {
+    background-color: var(--bg-darker) !important;
+}
+
+.bg-surface {
+    background-color: var(--bg-surface) !important;
+    border: 1px solid var(--border-color);
+}
+
+/* Título de seção com traço estético */
+.section-title {
+    font-size: 2.25rem;
+    letter-spacing: -0.5px;
+}
+
+.title-bar {
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--primary-gradient);
+    margin-top: 0.75rem;
+}
+
+/* --- Barra de Navegação --- */
+.glass-nav {
+    background: rgba(11, 15, 25, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition-smooth);
+}
+
+.navbar .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    transition: var(--transition-smooth);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #fff !important;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+    position: relative;
+    padding-top: 6rem;
+    background: radial-gradient(circle at 50% 30%, rgba(99, 102, 241, 0.12) 0%, transparent 60%);
+}
+
+.hero-lead {
+    max-width: 680px;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}
+
+/* --- Cards de Sobre Mim --- */
+.icon-box {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* --- Seção Habilidades --- */
+.skill-card {
+    transition: var(--transition-smooth);
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--border-hover) !important;
+    box-shadow: 0 10px 25px -5px var(--accent-glow);
+}
+
+.skill-badge {
+    background: rgba(255, 255, 255, 0.05);
+    color: #e2e8f0;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.45rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    transition: var(--transition-smooth);
+}
+
+.skill-badge:hover {
+    background: rgba(99, 102, 241, 0.15);
+    border-color: rgba(99, 102, 241, 0.35);
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.text-purple {
+    color: #a855f7 !important;
+}
+
+/* --- Seção Projetos --- */
+.project-card {
+    transition: var(--transition-smooth);
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--border-hover) !important;
+    box-shadow: 0 15px 30px -10px var(--accent-glow);
+}
+
+.project-header {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.project-icon-wrapper {
+    width: 72px;
+    height: 72px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+    transition: var(--transition-smooth);
+}
+
+.project-card:hover .project-icon-wrapper {
+    transform: scale(1.08);
+}
+
+/* Botões com efeito moderno */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
+    transition: var(--transition-smooth);
+}
+
+.btn-primary:hover {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.btn-outline-primary {
+    color: #818cf8;
+    border-color: rgba(99, 102, 241, 0.4);
+    font-weight: 500;
+    transition: var(--transition-smooth);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+    box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+/* --- Rodapé & Links Sociais --- */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--bg-surface);
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.social-link:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px var(--accent-glow);
+}
+
+/* --- Ajustes Responsivos --- */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.85rem;
+    }
+    .hero-section {
+        padding-top: 5rem;
+    }
+    .display-3 {
+        font-size: 2.5rem;
+    }
+}

@@ -35,6 +35,11 @@ python3 game.py
 
 ```
 jogo-atari/
-├── game.py          # Código principal do jogo
-└── requirements.txt # Dependências
+├── game.py          # Código principal do jogo Atari 2D (Pygame)
+├── requirements.txt # Dependências do jogo
+└── portfolio/       # Portfólio Pessoal responsivo (HTML5, CSS3, JS Vanilla, Bootstrap 5)
+    ├── index.html
+    ├── style.css
+    └── app.js
 ```
+

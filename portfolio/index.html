@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio Pessoal de Henrique Silva - Desenvolvedor Full Stack especializado na criação de aplicações web modernas e eficientes.">
+    <title>Henrique Silva | Portfólio Pessoal</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Estilos Customizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-gradient" href="#">&lt;Henrique.Dev/&gt;</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-sm btn-outline-primary px-3 text-light" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho / Hero Section -->
+    <header id="inicio" class="hero-section d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-8">
+                    <div class="badge bg-primary-subtle text-primary border border-primary-subtle mb-3 px-3 py-2 rounded-pill fs-6">
+                        <i class="bi bi-code-slash me-1"></i> Disponível para novos projetos
+                    </div>
+                    <h1 class="display-3 fw-bold mb-3">
+                        Olá, eu sou <span class="text-gradient">Henrique Silva</span>
+                    </h1>
+                    <h2 class="h3 fw-semibold text-secondary mb-4">Desenvolvedor Full Stack</h2>
+                    <p class="lead text-body-secondary mb-5 mx-auto hero-lead">
+                        Transformo ideias e problemas complexos em produtos digitais elegantes, rápidos e escaláveis, unindo boas práticas de arquitetura a experiências visuais envolventes.
+                    </p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="#projetos" class="btn btn-primary btn-lg px-4 py-2 rounded-pill shadow-sm">
+                            <i class="bi bi-briefcase me-2"></i>Ver Projetos
+                        </a>
+                        <a href="#sobre" class="btn btn-outline-secondary btn-lg px-4 py-2 rounded-pill text-light">
+                            <i class="bi bi-person me-2"></i>Conheça mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção: Sobre Mim -->
+        <section id="sobre" class="py-5 section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold">Sobre Mim</h2>
+                    <div class="title-bar mx-auto"></div>
+                </div>
+
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-7">
+                        <div class="card bg-surface h-100 p-4 border-0 rounded-4 shadow-sm">
+                            <h3 class="h4 fw-bold text-light mb-3">
+                                <i class="bi bi-mortarboard-fill text-primary me-2"></i>Formação & Trajetória
+                            </h3>
+                            <p class="text-secondary lh-lg mb-3">
+                                Sou graduado em <strong>Ciência da Computação</strong> e atuo no ecossistema de desenvolvimento de software há mais de 4 anos. Minha jornada iniciou com a curiosidade sobre como a web funciona nos bastidores, evoluindo para a criação de sistemas corporativos, microsserviços e interfaces reativas de alta fidelidade.
+                            </p>
+                            <p class="text-secondary lh-lg mb-0">
+                                Mantenho estudos constantes e certificações voltadas para <em>Clean Code</em>, engenharia de software ágil, computação em nuvem e segurança de aplicações. Tenho experiência prática no ciclo de vida completo de desenvolvimento: desde a modelagem de bancos de dados até o deploy automatizado e monitoramento contínuo em produção.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row g-3 h-100">
+                            <div class="col-12">
+                                <div class="card bg-surface p-3 border-0 rounded-4 shadow-sm d-flex flex-row align-items-center gap-3">
+                                    <div class="icon-box bg-primary-subtle text-primary rounded-3 p-3">
+                                        <i class="bi bi-journal-check fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="h6 fw-bold mb-1">Formação Acadêmica</h4>
+                                        <p class="small text-secondary mb-0">Bacharelado em Ciência da Computação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card bg-surface p-3 border-0 rounded-4 shadow-sm d-flex flex-row align-items-center gap-3">
+                                    <div class="icon-box bg-info-subtle text-info rounded-3 p-3">
+                                        <i class="bi bi-cpu fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="h6 fw-bold mb-1">Foco de Estudos</h4>
+                                        <p class="small text-secondary mb-0">Arquitetura de Software & Cloud Native</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card bg-surface p-3 border-0 rounded-4 shadow-sm d-flex flex-row align-items-center gap-3">
+                                    <div class="icon-box bg-success-subtle text-success rounded-3 p-3">
+                                        <i class="bi bi-award fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="h6 fw-bold mb-1">Experiência Profissional</h4>
+                                        <p class="small text-secondary mb-0">+4 anos atuando em projetos corporativos e startups</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Habilidades -->
+        <section id="habilidades" class="py-5 section-padding bg-darker">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold">Habilidades & Certificações</h2>
+                    <div class="title-bar mx-auto"></div>
+                    <p class="text-secondary mt-3">Tecnologias dominadas, ferramentas de rotina e especializações</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Front-End -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-surface h-100 p-4 border-0 rounded-4 skill-card">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <i class="bi bi-window-fullscreen text-primary fs-4"></i>
+                                <h3 class="h5 fw-bold mb-0">Front-End</h3>
+                            </div>
+                            <p class="text-secondary small mb-3">Desenvolvimento de interfaces modernas, acessíveis e responsivas.</p>
+                            
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge skill-badge"><i class="bi bi-filetype-html me-1 text-danger"></i>HTML5 Semântico</span>
+                                <span class="badge skill-badge"><i class="bi bi-filetype-css me-1 text-primary"></i>CSS3 / Flexbox / Grid</span>
+                                <span class="badge skill-badge"><i class="bi bi-filetype-js me-1 text-warning"></i>JavaScript (ES6+)</span>
+                                <span class="badge skill-badge"><i class="bi bi-bootstrap-fill me-1 text-purple"></i>Bootstrap 5</span>
+                                <span class="badge skill-badge"><i class="bi bi-lightning-charge me-1 text-info"></i>DOM & Web APIs</span>
+                            </div>
+
+                            <div class="mt-auto border-top border-dark-subtle pt-3">
+                                <div class="text-uppercase small fw-bold text-muted mb-2">Certificações</div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-patch-check-fill text-success"></i>
+                                    <span class="small text-secondary">Front-End Developer Specialist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Back-End -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-surface h-100 p-4 border-0 rounded-4 skill-card">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <i class="bi bi-hdd-network text-info fs-4"></i>
+                                <h3 class="h5 fw-bold mb-0">Back-End & APIs</h3>
+                            </div>
+                            <p class="text-secondary small mb-3">Lógica de servidor, construção de APIs RESTful e integração com bancos.</p>
+                            
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge skill-badge"><i class="bi bi-diagram-3 me-1 text-info"></i>APIs RESTful</span>
+                                <span class="badge skill-badge"><i class="bi bi-node-plus me-1 text-success"></i>Node.js</span>
+                                <span class="badge skill-badge"><i class="bi bi-database me-1 text-info"></i>SQL / PostgreSQL</span>
+                                <span class="badge skill-badge"><i class="bi bi-server me-1 text-secondary"></i>Autenticação & JWT</span>
+                                <span class="badge skill-badge"><i class="bi bi-shield-check me-1 text-success"></i>Segurança Web</span>
+                            </div>
+
+                            <div class="mt-auto border-top border-dark-subtle pt-3">
+                                <div class="text-uppercase small fw-bold text-muted mb-2">Certificações</div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-patch-check-fill text-success"></i>
+                                    <span class="small text-secondary">RESTful Architect & Back-End Pro</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ferramentas & DevOps -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-surface h-100 p-4 border-0 rounded-4 skill-card">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <i class="bi bi-gear-wide-connected text-warning fs-4"></i>
+                                <h3 class="h5 fw-bold mb-0">Ferramentas & DevOps</h3>
+                            </div>
+                            <p class="text-secondary small mb-3">Controle de versão, deploy contínuo e boas práticas de engenharia.</p>
+                            
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge skill-badge"><i class="bi bi-git me-1 text-danger"></i>Git & GitHub</span>
+                                <span class="badge skill-badge"><i class="bi bi-box-seam me-1 text-primary"></i>Docker</span>
+                                <span class="badge skill-badge"><i class="bi bi-terminal me-1 text-light"></i>Linux & Bash</span>
+                                <span class="badge skill-badge"><i class="bi bi-check2-circle me-1 text-success"></i>Clean Code</span>
+                                <span class="badge skill-badge"><i class="bi bi-speedometer2 me-1 text-warning"></i>Performance Web</span>
+                            </div>
+
+                            <div class="mt-auto border-top border-dark-subtle pt-3">
+                                <div class="text-uppercase small fw-bold text-muted mb-2">Certificações</div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-patch-check-fill text-success"></i>
+                                    <span class="small text-secondary">Git & CI/CD Pipeline Foundations</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Projetos -->
+        <section id="projetos" class="py-5 section-padding">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold">Projetos em Destaque</h2>
+                    <div class="title-bar mx-auto"></div>
+                    <p class="text-secondary mt-3">Alguns trabalhos e protótipos representativos</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Projeto 1 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-surface h-100 border-0 rounded-4 project-card overflow-hidden shadow-sm">
+                            <div class="project-header p-4 text-center">
+                                <div class="project-icon-wrapper mx-auto mb-3">
+                                    <i class="bi bi-cart3 fs-1 text-primary"></i>
+                                </div>
+                                <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1">E-commerce</span>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <h3 class="h5 fw-bold text-light mb-2">MarketHub Store</h3>
+                                <p class="text-secondary small flex-grow-1">
+                                    Plataforma de comércio eletrônico com catálogo dinâmico de produtos, filtro por categorias, carrinho de compras interativo e checkout simulado.
+                                </p>
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">HTML5</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">CSS3</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">JavaScript</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">Bootstrap 5</span>
+                                </div>
+                                <button type="button" class="btn btn-outline-primary w-100 rounded-pill btn-ver-mais" data-project-id="1">
+                                    <i class="bi bi-eye me-2"></i>Ver mais
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card bg-surface h-100 border-0 rounded-4 project-card overflow-hidden shadow-sm">
+                            <div class="project-header p-4 text-center">
+                                <div class="project-icon-wrapper mx-auto mb-3">
+                                    <i class="bi bi-wallet2 fs-1 text-success"></i>
+                                </div>
+                                <span class="badge bg-success-subtle text-success rounded-pill px-3 py-1">Finanças Pessoais</span>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <h3 class="h5 fw-bold text-light mb-2">FinanceFlow App</h3>
+                                <p class="text-secondary small flex-grow-1">
+                                    Aplicativo de controle financeiro para registro de receitas e despesas, cálculo de saldo em tempo real e visualização de metas com persistência no LocalStorage.
+                                </p>
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">JavaScript</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">Bootstrap Grid</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">LocalStorage API</span>
+                                </div>
+                                <button type="button" class="btn btn-outline-primary w-100 rounded-pill btn-ver-mais" data-project-id="2">
+                                    <i class="bi bi-eye me-2"></i>Ver mais
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <div class="card bg-surface h-100 border-0 rounded-4 project-card overflow-hidden shadow-sm">
+                            <div class="project-header p-4 text-center">
+                                <div class="project-icon-wrapper mx-auto mb-3">
+                                    <i class="bi bi-bar-chart-line fs-1 text-info"></i>
+                                </div>
+                                <span class="badge bg-info-subtle text-info rounded-pill px-3 py-1">Business Intelligence</span>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <h3 class="h5 fw-bold text-light mb-2">OmniMetrics Dashboard</h3>
+                                <p class="text-secondary small flex-grow-1">
+                                    Painel analítico responsivo para monitoramento de métricas operacionais, KPIs corporativos e gráficos de desempenho com temas claro e escuro.
+                                </p>
+                                <div class="d-flex flex-wrap gap-1 mb-3">
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">HTML/CSS</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">JavaScript Modular</span>
+                                    <span class="badge bg-dark-subtle text-secondary border border-secondary-subtle">Bootstrap UI</span>
+                                </div>
+                                <button type="button" class="btn btn-outline-primary w-100 rounded-pill btn-ver-mais" data-project-id="3">
+                                    <i class="bi bi-eye me-2"></i>Ver mais
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Detalhes do Projeto -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-surface border border-secondary-subtle rounded-4">
+                <div class="modal-header border-bottom border-dark-subtle">
+                    <h3 class="modal-title h5 fw-bold text-light" id="projectModalLabel">Detalhes do Projeto</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div id="modalProjectIcon" class="project-icon-wrapper"></div>
+                        <div>
+                            <h4 id="modalProjectTitle" class="h4 fw-bold mb-1 text-gradient">Título</h4>
+                            <span id="modalProjectCategory" class="badge bg-primary-subtle text-primary">Categoria</span>
+                        </div>
+                    </div>
+                    <p id="modalProjectDescription" class="text-secondary lh-lg mb-4">Descrição completa do projeto.</p>
+                    
+                    <h5 class="h6 fw-bold text-light mb-2">Tecnologias Utilizadas:</h5>
+                    <div id="modalProjectTechs" class="d-flex flex-wrap gap-2 mb-4">
+                        <!-- Badges dinâmicos inseridos via JS -->
+                    </div>
+
+                    <h5 class="h6 fw-bold text-light mb-2">Principais Funcionalidades:</h5>
+                    <ul id="modalProjectFeatures" class="text-secondary small mb-4">
+                        <!-- Lista de recursos via JS -->
+                    </ul>
+                </div>
+                <div class="modal-footer border-top border-dark-subtle">
+                    <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Fechar</button>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4">
+                        <i class="bi bi-github me-2"></i>Ver Código Fictício
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé (Footer) com Contatos -->
+    <footer id="contato" class="py-5 bg-darker border-top border-dark-subtle">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-md-6 text-center text-md-start">
+                    <h3 class="h4 fw-bold text-gradient mb-1">&lt;Henrique.Dev/&gt;</h3>
+                    <p class="text-secondary small mb-0">Desenvolvedor Full Stack • Construindo o futuro da web.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-2">
+                        <!-- Link fictício GitHub -->
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub de Henrique" aria-label="Acessar perfil fictício no GitHub">
+                            <i class="bi bi-github fs-4"></i>
+                        </a>
+                        <!-- Link fictício LinkedIn -->
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn de Henrique" aria-label="Acessar perfil fictício no LinkedIn">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+                        <!-- Link fictício Email -->
+                        <a href="mailto:contato.ficticio@exemplo.com" class="social-link" title="Enviar Email" aria-label="Enviar email de contato">
+                            <i class="bi bi-envelope-fill fs-4"></i>
+                        </a>
+                    </div>
+                    <p class="small text-secondary mb-0">
+                        &copy; <span id="currentYear"></span> Henrique Silva. Todos os direitos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS Bundle (com Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Puro da Aplicação -->
+    <script src="app.js"></script>
+</body>
+</html>
